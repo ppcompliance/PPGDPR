@@ -1,0 +1,168 @@
+[
+    {
+        "categorie": "隐私介绍", 
+        "values": [
+            {
+                "label": 0,
+                "value": 0.09,
+                "rate": "同类型app标签"
+            }, 
+            {
+                "label": 0,
+                "value": 0.08,
+                "rate": "app自身标签"
+            }
+        ]
+    }, 
+    {
+        "categorie": "第一方收集信息和使用", 
+        "values": [
+            {
+                "label": 1,
+                "value": 0.32,
+                "rate": "同类型app标签"
+            }, 
+            {
+                "label": 1,
+                "value": 0.31,
+                "rate": "app自身标签"
+            }
+        ]
+    }, 
+    {
+        "categorie": "Cookies以及相似技术", 
+        "values": [
+            {
+                "label": 2,
+                "value": 0.06,
+                "rate": "同类型app标签"
+            }, 
+            {
+                "label": 2,
+                "value": 0.05,
+                "rate": "app自身标签"
+            }
+        ]
+    }, 
+    {
+        "categorie": "第三方收集和分享数据", 
+        "values": [
+            {
+                "label": 3,
+                "value": 0.17,
+                "rate": "同类型app标签"
+            }, 
+            {
+                "label": 3,
+                "value": 0.17,
+                "rate": "app自身标签"
+            }
+        ]
+    }, 
+    {
+        "categorie": "用户选项及权利", 
+        "values": [
+            {
+                "label": 4,
+                "value": 0.14,
+                "rate": "同类型app标签"
+            }, 
+            {
+                "label": 4,
+                "value": 0.14,
+                "rate": "app自身标签"
+            }
+        ]
+    }, 
+    {
+        "categorie": "数据安全", 
+        "values": [
+            {
+                "label": 5,
+                "value": 0.05,
+                "rate": "同类型app标签"
+            }, 
+            {
+                "label": 5,
+                "value": 0.05,
+                "rate": "app自身标签"
+            }
+        ]
+    },
+	{
+	    "categorie": "数据保留", 
+	    "values": [
+	        {
+                "label": 6,
+	            "value": 0.03,
+	            "rate": "同类型app标签"
+	        }, 
+	        {
+                "label": 6,
+	            "value": 0.01,
+	            "rate": "app自身标签"
+	        }
+	    ]
+	},
+	{
+	    "categorie": "国际数据存储及转移", 
+	    "values": [
+	        {
+                "label": 7,
+	            "value": 0.03,
+	            "rate": "同类型app标签"
+	        }, 
+	        {
+                "label": 7,
+	            "value": 0.03,
+	            "rate": "app自身标签"
+	        }
+	    ]
+	},
+	{
+	    "categorie": "特殊人群", 
+	    "values": [
+	        {
+                "label": 8,
+	            "value": 0.04,
+	            "rate": "同类型app标签"
+	        }, 
+	        {
+                "label": 8,
+	            "value": 0.03,
+	            "rate": "app自身标签"
+	        }
+	    ]
+	},
+	{
+	    "categorie": "隐私政策修改", 
+	    "values": [
+	        {
+                "label": 9,
+	            "value": 0.03,
+	            "rate": "同类型app标签"
+	        }, 
+	        {
+                "label": 9,
+	            "value": 0.03,
+	            "rate": "app自身标签"
+	        }
+	    ]
+	},
+	{
+	    "categorie": "隐私政策联系信息", 
+	    "values": [
+	        {
+                "label": 10,
+	            "value": 0.04,
+	            "rate": "同类型app标签"
+	        }, 
+	        {
+                "label": 10,
+	            "value": 0.03,
+	            "rate": "app自身标签"
+	        }
+	    ]
+	}
+	
+]

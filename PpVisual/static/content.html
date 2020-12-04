@@ -1,0 +1,216 @@
+{% extends "base.html" %}
+{% block title %}隐私政策内容可视化{% endblock %}
+
+
+{% block script %}
+   <script type="text/javascript">
+    function showWaiting() {
+        $("#btn").enable = false;
+        document.body.style.cursor = "wait";  // 沙漏 (等待)
+    }
+
+    function closeWaiting() {
+        $("#btn").enable = true;
+        document.body.style.cursor = "default";  // 箭头 (默认)
+    }
+   function checkip() {
+       var data={};
+       var url = $("PP-btn").val();
+       data['url'] = url;
+       showWaiting();
+       var senddata = JSON.stringify(data);
+       $.ajax({
+           url:"submit",
+           type:"POST",
+           data:senddata,
+           dataType:"json",
+           complete:function (jqXHR) {
+               if(jqXHR.status === 200){
+                   var data = jqXHR.responseJSON;
+                   var output='';
+                   for (var i = 0, len = data['name'].length; i < len; i++) {
+                            var curSeg = data['name'][i];
+                            output += curSeg[0] + '<br>';
+                            for (var j = 0, len2 = curSeg[2].length; j < len2; j++) {
+                                var idx = curSeg[2][j];
+                                output += idx.toString() + ', ' + curSeg[1][idx][0] + ': &nbsp;&nbsp;' + curSeg[1][idx][1] + '<br>';
+                            }
+                            output += '-------------------------------------------------------------------' + '<br>'
+                        }
+                   output += '<br>';
+                   $("#practice").html(output);
+               }
+               else {
+                        alert("你输入的句子好像有问题😅换个句子试试🤔");
+                    }
+                    closeWaiting();
+
+           }
+       });
+
+
+   }
+   </script>
+{% endblock script %}
+
+
+
+
+
+
+{% block content %}
+    <!--标签下的弹窗-->
+	<div id="modal-container">
+		<div class="modal-background">
+			<!--标签下的文本内容-->
+			<div class="modal" id ="TextShow" style="position:relative;left: -380px;border:5px solid #00aa00;" ></div>
+			<!--标签下的词云图-->
+			<div id="chart" ></div>
+			<!--时间序列变化图-->
+			<div id="River" class="timeRiver"></div>
+		</div>
+	</div>
+<!--搜索-->
+		<div class="header">
+			<form class="form-wrapper cf" method="post" action="/submit" onclick="return checkip()" >
+				<h id="appID" >APP URL:</h>
+				<input id="AppUrl" name="AppUrl" type="text"  />
+<!--				<button type="submit">时间序列</button>-->
+				<button class="btn" name="submitbutton" id="GDPR-btn" type="submit" value="合规性分析" onclick="return checkip()">合规性分析</button>
+				<button class="btn"  id="PP-btn" type="submit"  onclick="checkip()">隐私政策内容分析</button>
+			</form>
+		</div>
+    <!--整个下方主体-->
+    <div class="tab-con">
+		<div class="labelBtn">
+			<div class="buttons">
+				<ul style="height: 30px; margin-bottom: 0px;padding: 5px;">
+					<li id="one" style="background: #ffd2cc" class="button">隐私介绍</li>
+					<li id="two" style="background: #1982c4" class="button">第一方收集信息和使用</li>
+					<li id="three" style="background: #ffca3a" class="button">Cookies以及相似技术</li>
+					<li id="four" style="background: #9c89b8" class="button">第三方收集和分享数据</li>
+					<li id="five" style="background: #2ec4b6" class="button">用户选项及权力</li>
+					<li id="six" style="background: #ff595e" class="button">数据安全</li>
+					<li id="seven" style="background: #6a4c93" class="button">数据保留</li>
+					<li id="eight" style="background: #118ab2 " class="button">国际数据存储及转移</li>
+					<li id="nine" style="background: #83c5be " class="button">特殊人群</li>
+					<li id="ten" style="background: #f0a6ca " class="button">隐私政策修改</li>
+					<li id="eleven" style="background: #9a8c98 " class="button">隐私政策联系信息</li>
+
+				</ul>
+			</div>
+		</div>
+		<!--隐私主体-->
+		<div class="data_content">
+			<div class="data_main">
+				<div class="main_left fl">
+					<div id="corlor_bar" class="left_1" >
+						<h3 style="text-align: center; color: white; font-size: 15px; font-weight:bold;">标签分布图</h3>
+					</div>
+					<div id="tsne" class="left_2" >
+						<h3 style="text-align: center; color: white; font-size: 15px; font-weight:bold;">同类型APP隐私政策文本聚类分布</h3>
+
+					</div>
+				</div>
+
+
+				<!--主体-->
+				<div class="main_center fl">
+					<div  id= "OverviewText" class="center_text" style="overflow-x:hidden;color: white">
+					</div>
+				</div>
+				<!--主结束-->
+				<!--视图-->
+				<div class="policyMinimap">
+				</div>
+				<!--app information-->
+				<div class="main_right fr">
+					<!--app信息-->
+					<div class="right_1" style="overflow-x:hidden">
+						<div class="inner">
+							<h3 style="text-align: center; color: white; font-size: 15px; font-weight:bold;">应用简介</h3>
+							<div id="summary" style="margin-top:20px">
+								<ul style="margin-top: 10px;color: white">
+									<li><span style="font-weight:bold;">应用 : </span>  Opera 浏览器：快速又安全</li>
+									<li><span style="font-weight:bold;">类型 : </span>  通讯 </li>
+									<li><span style="font-weight:bold;">评分 : </span>  4.6</li>
+									<li><span style="font-weight:bold;">安装次数 : </span>  3,313,497</li>
+									<li><span style="font-weight:bold;">提供商 : </span>  Opera</li>
+									<li><span style="font-weight:bold;">应用更新日期 : </span>  2020年7月10日</li>
+									<li><span style="font-weight:bold;">原始隐私政策链接： </span> <a align="left" href=#, style="font-size: 15px; margin-left: -3px" >隐私政策</a></li>
+								</ul>
+								<div style="margin-top: 20px; height:500px;color: white" >
+									Opera 浏览器专为您的 Android 设备而设计，是一款快速、安全的网页浏览器，具有经过重新设计的新闻订阅、内置广告拦截功能和节省流量模式。
+
+									★ 热门功能 ★
+
+									● 拦截广告，加快浏览速度：
+									Opera 自带的广告拦截功能能够有效地帮助您去除侵入性广告和更快地加载页面，为您带来更高效的浏览体验。
+
+									● 个性化的新闻订阅：
+									在我们高度智能化的人工智能新闻引擎的支持下，经过重新设计的新闻订阅功能能够让您通过轻扫屏幕翻阅浏览器内精选的个性化新闻频道、订阅喜欢的主题并保存文章以便在稍后阅读。阅读人工智能根据您的兴趣为您量身定制的新闻，及时了解天下事。
+
+									● 夜间模式：
+									Opera 的夜间模式提供了可调的照明选项，能够让您在黑暗中获得最舒适的阅读体验并最大限度减轻眼睛疲劳。从主菜单中可以轻松访问夜间模式。
+
+									● 管理密码和自动填充信用卡：
+									选择自动保存各个网站的密码，并安全地自动填充您用于在线购物的支付信息。
+
+									● 无痕浏览：
+									利用无痕浏览可在互联网上随意地浏览，而不会在设备上留下任何痕迹。在标签库中，可轻松在无痕浏览与正常浏览之间切换。
+
+									● 在任何屏幕上舒适地阅读：
+									Opera 浏览器具有文本大小设置，能够让您 根据自己的阅读偏好调整页面。更重要的是，它能够与我们的自动换行功能完美结合，为您带来无与伦比的阅读体验。
+
+									● 轻松管理下载：
+									我们推出的新型下载管理器能够比以往更加轻松、快速地下载文件！您可以轻松排列和分享各个下载项，而且只需向右或向左快速扫一下，即可将它们从您的手机或下载列表中删除。当您正在下载内容但需要打开另一个应用程序时，我们还支持后台下载！
+
+									● 主屏幕快捷方式：
+									Opera 浏览器适用于 Android 7.1 版或更高版本， 允许从主屏幕快速执行搜索、打开新的隐身标签或者扫描二维码。要创建您自己的主屏幕快捷方式，请在您设备的主屏幕上长按 Opera 图标，然后点击您需要的功能。
+
+									其他亮点
+
+									● 浏览器启动选项：
+									每个人都有自己的个性，因此我们允许您选择是在打开浏览器时始终显示新的标签还是从上次离开的位置继续浏览，以及当您离开浏览器时是选择关闭还是保留已打开的标签。
+
+									● 同步您的 Opera 设备：
+									您可以访问其他设备上的所有 Opera 书签、“我的导航”快捷方式和打开的标签。Android 上的 Opera 现在可以轻松与计算机上的 Opera 浏览器同步。
+
+									● 添加到主屏幕：
+									将任何网站直接添加到您设备的主屏幕上，以便能够更快地访问这些网站。Facebook 等网站甚至能够像应用程序那样为您发送推送通知。
+
+									Opera 让您物尽其用：https://www.opera.com/mobile/android
+
+									Opera 可能会显示来自 Facebook 的广告。要了解详情，请访问 https://m.facebook.com/ads/ad_choices
+
+									保持联系：
+									Twitter - http://twitter.com/opera/
+									Facebook – http://www.facebook.com/opera/
+									Instagram – http://www.instagram.com/opera
+
+									条款与条件
+
+									下载本应用程序，即表明您同意 https://www.opera.com/eula/mobile 上的最终用户许可协议。此外，您可以在 https://www.opera.com/privacy 了解 Opera 如何处理及保护您的数据。
+								</div>
+							</div>
+						</div>
+<!--						<div id="chart_3" class="echart t_btn7" style="width:100%;height: 280px;"></div>-->
+
+					</div>
+					<div id="bar" class="right_2">
+						<h3 style="text-align: center; color: white; font-size: 15px; font-weight:bold;">同类型APP标签对比分布</h3>
+<!--						<div id="chart_4" class="echart fl t_btn4" style="width:100%;height: 280px;cursor: pointer;"></div>-->
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	<div class="GDPR-con">
+	</div>
+    <div class="form">
+    <label class="label">预测结果:</label>
+    <div id="practice" class="output" aria-readonly="true"></div>
+    </div>
+{% endblock %}
+<script src="{{ url_for('static', filename='js/btnVer.js') }}"></script>

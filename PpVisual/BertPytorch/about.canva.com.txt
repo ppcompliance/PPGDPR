@@ -1,0 +1,196 @@
+Privacy Policy
+Updated 25 May 2018. See previous versions of this and other policies in our Policy Archives.
+
+The text to the right is aimed to give a plain English summary of our Privacy Policy. Please ensure you read the main text on the left, as the plain English summary on the right is just a summary and doesn¡¯t capture all of the terms.
+
+What does this policy cover
+Welcome to Canva, the online and mobile service of Canva Pty Ltd (¡°Canva,¡± ¡°we,¡± or ¡°us¡±). Our Privacy Policy explains how we collect, use, disclose, and protect information that applies to our Service, and your choices about the collection and use of your information. Capitalized terms that are not defined in this Privacy Policy have the meaning given to them in our Terms of Use.
+
+Welcome, here is our policy on privacy. Our privacy policy, if you will.
+
+This policy sets out how Canva collects and uses the information that we collect about you when you use the Canva services. This policy also explains the choices that you can make about the way that we use your information.
+
+Information we collect and its use
+We collect the following types of information about you:
+
+Information you provide us directly
+We may ask for certain information such as a username, your first and last name, birthdate, phone number, profession and e-mail address when you register for a Canva account, or if you correspond with us. We may also retain any messages you send through the Service, and may collect information you provide in User Content you post to the Service. We use this information to operate, maintain, and provide to you the features and functionality of the Service. We may also use this information to correspond with you, and to address any issues you raise about the Service.
+
+If you give us info about you, we will keep it and use it to provide our Service and make our service better.
+
+Information we may receive from third parties
+We may receive information about you from third parties. For example, if you access our websites or Service through a third-party connection or log-in, for example, through Facebook Connect, by ¡°following,¡± ¡°liking,¡± adding the Canva application, linking your account to the Canva Service, etc., that third party may pass certain information about your use of its service to Canva. This information could include, but is not limited to, the user ID associated with your account (for example, your Facebook UID), an access token necessary to access that service, any information that you have permitted the third party to share with us, and any information you have made public in connection with that service. You should always review, and if necessary, adjust your privacy settings on third-party websites and services before linking or connecting them to the Canva Service. You may also unlink your third party account from the Service by adjusting your settings on the third party service. If you unlink your third party account, we will no longer receive information collected about you in connection with that service.
+
+When you use our Service, third parties might give us some info about you, especially if you are signed into a third party account while using our Service.
+
+Information we collect from you automatically
+We may directly collect analytics data, or use third-party analytics tools, to help us measure traffic and usage trends for the Service. These tools collect information sent by your browser or mobile device, including the pages you visit and other information that assists us in improving the Service.
+
+To help us improve our service we keep info about how you use our service.
+
+Cookies information
+When you visit the Service, we may send one or more cookies ¡ª a small text file containing a string of alphanumeric characters ¡ª to your computer that uniquely identifies your browser and lets Canva help you log in faster and enhance your navigation through the site. A cookie may also convey information to us about how you use the Service (e.g., the pages you view, the links you click and other actions you take on the Service), and allow us or our business partners to track your usage of the Service over time.
+
+You can control or reset your cookies through your web browser, which will allow you to customise your cookie preferences and to refuse all cookies or to indicate when a cookie is being sent. However, some features of the Service may not function properly if the ability to accept cookies is disabled.
+
+We may send cookies to your web browser (not the yummy kind) to help you use Canva. If you would like to adjust your cookie settings, please consult your browser instructions.
+
+Log file information
+Log file information is automatically reported by your browser or mobile device each time you access the Service. When you use our Service, our servers automatically record certain log file information. These server logs may include anonymous information such as your web request, Internet Protocol (¡°IP¡±) address, browser type, referring / exit pages and URLs, number of clicks and how you interact with links on the Service, domain names, landing pages, pages viewed, and other such information.
+
+Whenever you load a page from Canva, your browser sends us info about itself and your interactions with our Service. That info gets stored on our servers.
+
+Clear gifs/web beacons information
+When you use the Service, we may employ clear GIFs (also known as web beacons) which are used to anonymously track the online usage patterns of our Users. In addition, we may also use clear GIFs in HTML-based emails sent to our users to track which emails are opened and which links are clicked by recipients. This information allows for more accurate reporting and improvement of the Service.
+
+We might do clever stuff with images in order to check how many people open our emails and visit our site.
+
+Device identifiers
+When you access the Service by or through a mobile device (including but not limited to smart-phones or tablets), we may access, collect, monitor and/or remotely store one or more ¡°device identifiers,¡± such as a universally unique identifier (¡°UUID¡±). Device identifiers are small data files or similar data structures stored on or associated with your mobile device, which uniquely identify your mobile device. A device identifier may be data stored in connection with the device hardware, data stored in connection with the device¡¯s operating system or other software, or data sent to the device by Canva. A device identifier may convey information to us about how you browse and use the Service. A device identifier may remain persistently on your device, to help you log in faster and enhance your navigation through the Service. Some features of the Service may not function properly if use or availability of device identifiers is impaired or disabled. Device Identifiers used by Canva include the Android Advertising ID and iOS Advertising Identifier.
+
+In order to track how different people are using our Service we might store a unique ID on your mobile that helps us do that.
+
+Location data
+When you access the Service by or through a mobile device, we may access, collect, monitor and/or remotely store ¡°location data,¡± which may include GPS coordinates (e.g. latitude and/or longitude) or similar information regarding the location of your mobile device. Location data may convey to us information about how you browse and use the Service. Some features of the Service, particularly location-based services, may not function properly if use or availability of location data is impaired or disabled.
+
+Your mobile device can give us information about where you are. We¡¯ll try and use this to offer you better service.
+
+How we use your information
+We use the information we collect about you for the following purposes:
+
+Providing you with the Service: We use the information that you provide us to provide the Service to you. This includes allowing you to log in to Canva, operating and maintaining the Service, giving you access to your designs and billing you for transactions that you make via the Service. We also use information we collect about you automatically to remember information about you so that you will not have to re-enter it during your visit or the next time you visit the site
+For data analytics: We use information about you to help us improve the Canva Service and our users¡¯ experience, including by monitoring aggregate metrics such as total number of visitors, traffic, and demographic patterns.
+Customising the Service for you: We use information you provide us and information about you to make sure that your use of the Service is customised to your needs. For example, if you tell us your profession to recommend designs that are likely to be relevant to you.
+To communicate with you about the Service: We use your contact information to get in touch with you and to send communications about critical elements of the Service. For example, we may send you emails about technical issues, security alerts or administrative matters.
+To promote and drive engagement with the Canva Service: We use your contact information to get in touch with you about features and offers relating to the Service that we think you would be interested in. We also use information we collect about you to make sure that you get the most relevant offers and promotions based on your use of the Service, and your preferences. You can opt-out of getting these communications as described below.
+Customer happiness: We use information about you, information that you provide to our customer happiness team, and information about your interactions with the Service to resolve technical issues you experience with the Service, and to ensure that we can repair and improve the Service for all Canva users.
+For security measures: We use information about you to monitor activity that we think is suspicious or potentially fraudulent, and to identify violations or this Privacy Policy or our Terms of Service.
+For matters that you have specifically consent to: From time to time Canva may seek your consent to use your information for a particular purpose. Where you consent to our doing so, we will use it for that purpose. Where you no longer want us to use your information for that purpose you may withdraw your consent to this use.
+For matters that we are required to use your information by law: Canva will use or disclose your information where we reasonably believe that such action is necessary to (a) comply with the law and the reasonable requests of law enforcement; (b) to enforce our Terms of Use or to protect the security or integrity of our Service; and/or (c) to exercise or protect the rights, property, or personal safety of Canva, our Users or others.
+These are the reasons that Canva may need to use information about you.
+
+Legal bases for processing information under the GDPR (for users in the EEA)
+For Canva users in the the European Economic Area (EEA) Canva processes your information in accordance with European laws and regulations such as the General Data Protection Regulation (GDPR). The GDPR governs how Canva may process your information, and the rights that EEA users have in relation to it. This means that Canva will collect and use your information only where:
+
+We need it to provide you the Service and fulfil our obligations to you under our Terms of Service. This includes providing you with access to the information that you create in your designs.
+It it justified because of a legitimate interest such as for research and development or marketing the Service (but only where our legitimate interest isn¡¯t overridden by your interest in protecting your data).
+You consent to us using your information in a certain way.
+It is necessary for compliance with our legal obligations.
+If you have consented to our use of your information you may withdraw that consent at any time. Depending on the situation you can either withdraw your consent by emailing community@canva.com, or through your account settings page. Where we are using your information because of a legitimate interest to do so, you have the right to object to that use. However, if you do so it may mean that it is not possible for you to continue using the Services.
+
+GDPR, you may have heard of it? It¡¯s been kind of a big deal.
+
+Sharing your information
+We will not rent or sell your information into third parties outside Canva and its group companies (including any parent, subsidiaries and affiliates) without your consent, except as noted in this section:
+
+We won¡¯t share your personal information without your permission except as follows:
+
+Who we may share your information with
+We may share your information with third-party service providers for the purpose of providing the Service to you and to facilitate Canva¡¯s interests, as outline above . Those service providers will only be provided with access to your information as is reasonably necessary for the purpose that Canva has engaged the service provider, and we will require that such third parties comply with this Privacy Policy and any applicable laws.
+
+Some of the third parties that Canva may share your personal information with include providers who assist Canva with functions such as:
+
+Billing;
+Customer support and customer management;
+Email services;
+Hosting and storage;
+Analytics; and
+Delivery of physical products;
+We might share some information on you with our business partners, but only as necessary to provide the service to you or to fulfil Canva¡¯s legitimate business interests.
+
+Who you may choose to share your User Content with
+Any information or content that you voluntarily disclose for posting to the Service, such as User Content, becomes available to the public, as controlled by any applicable privacy settings. Subject to your profile and privacy settings, any User Content that you make public is searchable by other Users. If you remove information that you posted to the Service, copies may remain viewable in cached and archived pages of the Service, or if other Users have copied or saved that information.
+
+By default all content you post on Canva is private. If you do choose to make designs or other information public, that information may remain visible even after your remove it via cached and archived pages, or if other users have made copies.
+
+Canva may also share your information with third parties in certain circumstances, such as where:
+
+we are required to do so as a result of a court order, subpoena or other legal requirement;
+we believe that it is necessary to protect you or Canva, such as where we consider that there is a need to investigate potentially fraudulent or criminal activity; or
+you have consented to our sharing it with a third party for a particular purpose.
+These ones speak for themselves.
+
+Canva may also share your information with a third party in circumstances where we sell divest or transfer Canva (including any shares in Canva), or any combination of its products, services, assets and/or businesses to a third party. Information such as customer names and email addresses, User Content and other user information related to the Service may be among the items sold or otherwise transferred in these types of transactions. We may also sell, assign or otherwise transfer such information in the course of corporate divestitures, mergers, acquisitions, bankruptcies, dissolutions, reorganisations, liquidations, similar transactions or proceedings involving all or a portion of the Canva.
+
+If we sell our business, any of the info which we¡¯ve acquired about you may be part of the sale.
+
+We may also aggregate or otherwise strip data of all personally identifying characteristics and may share that aggregated, anonymized data with third parties.
+
+Who you may choose to share your User Content with
+Any information or content that you voluntarily disclose for posting to the Service, such as User Content, becomes available to the public, as controlled by any applicable privacy settings. Subject to your profile and privacy settings, any User Content that you make public is searchable by other Users. If you remove information that you posted to the Service, copies may remain viewable in cached and archived pages of the Service, or if other Users have copied or saved that information.
+
+By default all content you post on Canva is private. If you do choose to make designs or other information public, that information may remain visible even after your remove it via cached and archived pages, or if other users have made copies.
+
+Ads on Canva
+We may share certain information such as your location, browser and cookie data and other data relating to your use of our Service with our business partners to deliver personalized advertisements (¡°ads¡±) that may be of interest to you. Canva may allow third-party ad servers or ad networks to serve personalized advertisements either on the Service or on third party websites, including Facebook and Google. These third-party ad servers or ad networks use technology to send, directly to your browser or mobile device, these personalized ads and ad links, and will automatically receive your IP address when they do so. They may also use other technologies (such as cookies, JavaScript, device identifiers, location data, and clear gifs, see above) to compile information about your browser¡¯s or device¡¯s visits and usage patterns on the Service, and to measure the effectiveness of their ads and to personalize the advertising content. Canva does not sell, rent, or share the information we collect directly from you or about you from third parties with these third-party ad servers or ad networks for such parties¡¯ own marketing purposes.
+
+Please note that an advertiser may ask Canva to show an ad to a certain audience of Users (e.g., based on demographics or other interests). In that situation, Canva determines the target audience and Canva serves the advertising to that audience and only provides anonymous aggregated data to the advertiser. If you respond to such an ad, the advertiser or ad server may conclude that you fit the description of the audience they are trying to reach.
+
+The Canva Privacy Policy does not apply to, and we cannot control the activities of, third-party advertisers. Please consult the respective privacy policies of such advertisers or contact such advertisers for more information.
+
+If we have to have ads on our site *ewww* we might use some of your info to show you appropriate ads. We may also use some of that info to send you relevant ads on other sites, like Facebook or Google.
+
+How we transfer, store and protect your data
+Your information collected through the Service may be stored and processed in the United States or any other country in which Canva or its subsidiaries, affiliates or service providers maintain facilities. Canva may transfer information that we collect about you, including personal information, to affiliated entities, or to other third parties across borders and from your country or jurisdiction to other countries or jurisdictions around the world. As a result, we may transfer information, including personal information, to a country and jurisdiction that does not have the same data protection laws as your jurisdiction, and you consent to the transfer of information to the U.S. or any other country in which Canva or its parent, subsidiaries, affiliates or service providers maintain facilities and the use and disclosure of information about you as described in this Privacy Policy.
+
+To run our service we¡¯ll have to use computers all over the world. This means your information might be transferred to the US, Australia, Europe and anywhere else the service is operated.
+
+Cross-border transfers of information (for users in the EEA)
+For Users in the EEA, where we transfer your information to a third party provider that is not located in the EEA, and is not subject to an adequacy decision by the EU Commission, we will require those third party providers to enter into an agreement that provides appropriate safeguards for your information. From time to time we may also seek your consent to transfer your information to a third country outside the EEA.
+
+Keeping your information safe
+Canva cares about the security of your information, and uses appropriate safeguards to preserve the integrity and security of all information collected through the Service. To protect your privacy and security, we take reasonable steps (such as requesting a unique password) to verify your identity before granting you access to your account. You are responsible for maintaining the secrecy of your unique password and account information, and for controlling access to your email communications from Canva, at all times. However, Canva cannot ensure or warrant the security of any information you transmit to Canva or guarantee that information on the Service may not be accessed, disclosed, altered, or destroyed. Your privacy settings may also be affected by changes to the functionality of third party sites and services that you add to the Canva Service, such as social networks. Canva is not responsible for the functionality or security measures of any third party.
+
+We care about the safety of your data and, we have implemented industry recognized measures to protect it, but unfortunately we can¡¯t guarantee that nothing bad will ever happen to it. (A troop of rabid baboons springs to mind).
+
+Compromise of information
+In the event that any information under our control is compromised as a result of a breach of security, Canva will take reasonable steps to investigate the situation and where appropriate, notify those individuals whose information may have been compromised and take other steps, in accordance with any applicable laws and regulations.
+
+If there is a breach of our security we will investigate it and let any affected users know.
+
+Your choices about your information
+You control your account information and settings
+You may update your account information by logging into your account and changing your profile settings. You can also stop receiving promotional email communications from us by clicking on the ¡°unsubscribe link¡± provided in such communications. We make every effort to promptly process all unsubscribe requests. You may not opt out of Service-related communications (e.g., account verification, purchase and billing confirmations and reminders, changes/updates to features of the Service, technical and security notices). If you have any questions about reviewing or modifying your account information, you can contact us directly at community@canva.com.
+
+You have control over your account settings, such as your account information and email notifications, but there¡¯s some important stuff we¡¯ll always send you.
+
+Opting out of collection of your information
+Please refer to your mobile device or browser¡¯s technical information for instructions on how to delete and disable cookies, and other tracking/recording tools. Depending on your type of device, it may not be possible to delete or disable tracking mechanisms on your mobile device. Note that disabling cookies and/or other tracking tools prevents Canva or its business partners from tracking your browser¡¯s activities in relation to the Service, and for use in targeted advertising activities by Canva, including via third parties¡¯ websites. However, doing so may disable many of the features available through the Service. If you have any questions about opting out of the collection of cookies and other tracking/recording tools, you can contact us directly at community@canva.com.
+
+If you want us to stop collecting information about you, there may be some settings you can adjust in your browser or device. But Canva might be pretty boring without it.
+
+Rights in respect of your Information
+The laws of some countries grant particular rights in respect of personal information. Users in those jurisdictions may have the right to:
+
+Request a copy of your information;
+Request that we correct inaccuracies relating to your information;
+Request that your information be deleted or that we restrict access to it;
+Request a structured electronic version of your information; and
+Object to our use of your information;
+Should you wish to make a request in respect of your personal information please contact us at community@canva.com.
+
+In some circumstances Canva may not be able to comply with a request that you make in respect of your personal data. For example, we may not be able to provide a copy of your information where it infringes on the rights of another User. We may also be required to retain certain information that you ask us to delete for various reasons, such as where there is a legal requirement to do so. In some cases, you may have shared your information with third parties, such as by publishing a design on a third party¡¯s website. In that case Canva will not be able to delete the information, and you will need to contact that third party directly.
+
+If we are unable to resolve your request, or if you are concerned about a potential violation, you may be entitled to report the issue or make a complaint to the data protection authority in your jurisdiction.
+
+You may have specific rights in relation to your information depending on where you live.
+
+How long we keep your User Content
+Following termination or deactivation of your User account, Canva may retain your profile information and User Content for a commercially reasonable time, and for as long as we have a valid purpose to do so. In particular, Canva may retain your information for the purpose of comply with its legal and audit obligations, and for backup and archival purposes.
+
+This one is short.
+
+Children¡¯s privacy
+Canva does not knowingly collect or solicit personal information from children under the age of 13 and the Service and its content are not directed at children under the age of 13. In the event that we learn that we have collected personal information from a child under age 13 without verification of parental consent, we will delete that information as quickly as possible. If you believe that we might have any information from or about a child under 13, please contact us at community@canva.com.
+
+Like many other things in life, parents and guardians have control over how children use Canva. We don¡¯t want children to upload personal information and we¡¯ll delete that information if we learn about it.
+
+Links to other websites and services
+We are not responsible for the practices employed by websites or services linked to or from the Service, including the information or content contained therein. Please remember that when you use a link to go from the Service to another website, our Privacy Policy does not apply to third-party websites or services. Your browsing and interaction on any third-party website or service, including those that have a link or advertisement on our website, are subject to that third party¡¯s own rules and policies. In addition, you agree that we are not responsible for and we do not exercise control over any third-parties that you authorize to access your User Content. If you are using a third-party website or service (like Facebook) and you allow such a third-party access to your User Content you do so at your own risk. This Privacy Policy does not apply to information we collect by other means (including offline) or from other sources other than through the Service.
+
+The Internet. It¡¯s made of links. If we post one on Canva, we can¡¯t control what happens on the other end. The same goes if you let another site use your data on Canva.
+
+How to contact us
+If you have any questions about this Privacy Policy or the Service, please contact us at community@canva.com.
+
+We love to have stimulating conversations about privacy, so reach out any time!

@@ -1,0 +1,13 @@
+{
+  "data": {
+    "train_data": "/data/privacypolicy/trainfiltedchange10000UTF.tsv",
+    "dev_data": "/data/privacypolicy/valfiltedchange10000UTF.tsv",
+    "test_data": "/data/privacypolicy/strawdogstudiosUTF.tsv",
+    "embedding_path": "/data/glove.6B.100d.txt"
+  },
+  "model": {
+    "save_vocab_path": "/model/word_vocab.pkl",
+    "load_vocab_path": "/model/word_vocab.pkl",
+    "save_model_path": "/model/lstm_net.pkl"
+  }
+}

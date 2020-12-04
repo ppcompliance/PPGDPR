@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    {%- block html %}
+    <head>
+        {%- block head %}
+        <title>{% block title %}{% endblock title %}</title>
+
+        {%- block metas %}
+        <meta charset="UTF-8">
+        {%- endblock metas %}
+
+        {%- block styles %}
+            <link rel="stylesheet" href="../static/css/index.css">
+            <link rel="stylesheet" href="../static/css/base.css">
+            <link rel="stylesheet" href="../static/css/personCSS.css">
+            <link rel="stylesheet" href="../static/css/tooltip.css">
+            <link rel="stylesheet" href="../static/css/button_Res.css">
+        {%- endblock  %}
+
+        <!--<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>-->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="https://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+        <script src="../static/js/buttonTime.js"></script>
+
+        {%- endblock head %}
+    </head>
+    <body>
+        {% block body -%}
+
+            {% block content -%}
+            {%- endblock content %}
+
+            {% block scripts %}
+
+            {%- endblock scripts %}
+
+        {%- endblock body %}
+    </body>
+
+    {%- endblock html %}
+</html>

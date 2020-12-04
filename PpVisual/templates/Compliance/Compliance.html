@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>隐私政策合规性可视化</title>
+    <link href="static/css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="static/css/base.css">
+    <link rel="stylesheet" href="static/css/comindex.css">
+    <link rel="stylesheet" href="static/css/CompLbtn.css">
+    <link rel="stylesheet" href="static/css/button_Res.css">
+    <link rel="stylesheet" href="static/css/comtooltip.css">
+    <style>
+
+    </style>
+</head>
+<body>
+<!--弹窗-->
+<div id="modal-container">
+    <div class="modal-background">
+        <!--标签下的文本内容-->
+        <div class="modal" id ="TextShow" style="position:relative;left: -380px;border:5px solid #00aa00;" ></div>
+        <!--标签下的词云图-->
+        <div id="chart" ></div>
+        <!--时间序列变化图-->
+        <div id="River" class="timeRiver"></div>
+    </div>
+</div>
+<!--header-->
+<!--搜索-->
+<div class="header">
+    <form class="form-wrapper cf" >
+        <h id="appID" >APP URL:</h>
+        <input id="AppUrl" name="AppUrl" type="text"  />
+        <!--				<button type="submit">时间序列</button>-->
+        <button class="btn" id="GDPR-btn" type="submit">合规性分析</button>
+        <button class="btn" id="PP-btn" type="submit">隐私政策内容分析</button>
+    </form>
+</div>
+<!--搜索结束-->
+<div class="tab-con">
+    <div class="labelBtn">
+        <div class="buttons">
+            <ul style="height: 30px; margin-bottom: 0px;padding: 5px;">
+                <li id="one" style="background: #ffd2cc" class="button">收集个人数据</li>
+                <li id="two" style="background: #1982c4" class="button">数据存储期限</li>
+                <li id="three" style="background: #ffca3a" class="button">收集数据目的</li>
+                <li id="four" style="background: #9c89b8" class="button">联系方式</li>
+                <li id="five" style="background: #2ec4b6" class="button">访问数据权</li>
+                <li id="six" style="background: #ff595e" class="button">擦除或更改权</li>
+                <li id="seven" style="background: #6a4c93" class="button">限制处理权</li>
+                <li id="eight" style="background: #118ab2 " class="button">拒绝处理权</li>
+                <li id="nine" style="background: #83c5be " class="button">数据携带权</li>
+                <li id="ten" style="background: #f0a6ca " class="button">申诉权</li>
+
+            </ul>
+        </div>
+    </div>
+    <!--隐私主体-->
+    <div class="data_content">
+        <div class="data_main">
+            <div class="main_left fl">
+                <div id="corlor_bar" class="left_1" >
+                    <h3 style="text-align: center; color: white; font-size: 15px; font-weight:bold;">同类别APP中常出现的问题及其比例分布</h3>
+                </div>
+                <div id="tsne" class="left_2" >
+                    <h3 style="text-align: center; color: white; font-size: 15px; font-weight:bold;">合规性词云</h3>
+
+
+                </div>
+            </div>
+
+
+
+            <!--主体-->
+            <div class="main_center fl">
+                <div  id= "OverviewText" class="center_text" style="overflow-x:hidden;color: white">
+                </div>
+            </div>
+            <!--主结束-->
+            <!--视图-->
+            <div class="policyMinimap">
+            </div>
+            <!--app information-->
+            <div class="main_right fr">
+                <!--app信息-->
+                <div class="right_1" style="overflow-x:hidden">
+                    <div class="inner">
+                        <h3 style="text-align: center; color: white; font-size: 15px; font-weight:bold;">检测到此隐私政策不具备以下必要描述：</h3>
+                        <div id="summary" style="margin-top:20px">
+
+                           <div style="margin-top: 10px;">
+                                    {% for foo in gdpr %}
+                                    <details>
+                                        <summary style="font-weight:bold;color: #1982c4;">{{ foo.label|safe }}:</summary>
+                                	        <ul>
+                                	            <li style="color: #1982c4;">{{ foo.example|safe }}</li>
+                                	            <li>{{foo.gdpr|safe  }}</li>
+                                	        </ul>
+                                    </details>
+
+                                    {% endfor %}
+                           </div>
+
+
+                            <p align="left" style="margin-top: 20px;color:white ">进一步了解不一致情况请访问
+                                <a align="left" href="https://gdpr-info.eu/" style="font-size: 15px; margin-left: -3px">GDPR官网：</a></p>
+
+
+
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+</body>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.4.11/d3.min.js"></script>
+<script src="https://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+<script src="static/js/d3.js"></script>
+<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+<script src="https://rawgit.com/jasondavies/d3-cloud/master/build/d3.layout.cloud.js"></script>
+<script src="static/js/d3.layout.cloud.js"></script>
+<script src="static/js/d3.min.js"></script>
+<script src="static/js/cloud.js"></script>
+{#<script src="static/js/btnVer.js"></script>#}
+<script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+<script src="https://gist.github.com/emeeks/3361332/raw/61cf57523fe8cf314333e5f60cc266351fec2017/d3.layout.cloud.js"></script>
+<script src="static/js/Compliance.js"></script>
+<script src="static/js/GdprBar.js"></script>
+{#<script src="static/js/ComB.js" ></script>#}
+<script>
+    GetGdpr_info({{ gdpr_data|safe }})
+    GetBar({{ sum|tojson }})
+    {#GetComplineKey({{ keyGdprWord|safe }})#}
+</script>
+</html>

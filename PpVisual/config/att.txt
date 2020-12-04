@@ -1,0 +1,43 @@
+[Data]
+glove_path = ./emb/fasttext_pp.vec
+bert_path = ./emb/bert-base-uncased/
+train_file = ./416_pp/privacypolicy.train_6
+dev_file = ./416_pp/privacypolicy.test_6
+test_file = ./att_data/opera.test
+
+[Save]
+save = True
+
+[Network]
+tune_start_layer = 0
+cat_layers = 1
+word_dims = 100
+min_count = 1
+dropout_embed = 0.15
+dropout_mlp = 0.0
+word_num_layers = 1
+word_hidden_size = 100
+sent_num_layers = 1
+sent_hidden_size = 100
+dropout_input = 0.1
+dropout_hidden = 0.1
+
+[Optimizer]
+learning_rate = 5e-4
+bert_lr = 5e-4
+decay = .75
+decay_steps = 2000
+beta_1 = .9
+beta_2 = .9
+epsilon = 1e-12
+clip = 5.0
+
+[Run]
+threads = 2
+epochs = 400
+train_batch_size = 1
+test_batch_size = 1
+log_interval = 500
+early_stops = 20
+save_after = 1
+update_every = 2

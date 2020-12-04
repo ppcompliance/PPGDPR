@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>隐私政策可视化</title>
+		<link href="static/css/bootstrap.css" rel="stylesheet">
+		<link rel="stylesheet" href="static/css/base.css">
+		<link rel="stylesheet" href="static/css/index.css">
+		<link rel="stylesheet" href="static/css/personCSS.css">
+		<link rel="stylesheet" href="static/css/button_Res.css">
+<!--		<link rel="stylesheet" href="css/label.css">-->
+		<link rel="stylesheet" href="static/css/tooltip.css">
+
+		<style>
+
+		</style>
+	</head>
+	<body>
+	<!--弹窗-->
+	<div id="modal-container">
+		<div class="modal-background">
+			<!--标签下的文本内容-->
+			<div class="modal" id ="TextShow" style="position:relative;left: -380px;border:5px solid #00aa00;" ></div>
+			<!--标签下的词云图-->
+			<div id="chart" ></div>
+			<!--时间序列变化图-->
+			<div id="River" class="timeRiver"></div>
+		</div>
+	</div>
+
+		<!--header-->
+		<!--搜索-->
+
+		<div class="header">
+			<form class="form-wrapper cf"  method="POST" action="/pp_index" >
+				<h id="appID" >APP URL:</h>
+				<input id="AppUrl" name="AppUrl" type="text" placeholder="url"/>
+<!--				<button type="submit">时间序列</button>-->
+				<button class="btn" name="submitbutton" id="GDPR-btn" type="submit" value="合规性分析" >合规性分析</button>
+				<button class="btn" name="submitbutton" id="PP-btn" type="submit" value="隐私政策内容分析">隐私政策内容分析</button>
+			</form>
+		</div>
+		<!--搜索结束-->
+	<div class="tab-con">
+		<div class="labelBtn">
+			<div class="buttons">
+				<ul style="height: 30px; margin-bottom: 0px;padding: 5px;">
+					<li id="one" style="background: #ffd2cc" class="button">隐私介绍</li>
+					<li id="two" style="background: #1982c4" class="button">第一方收集信息和使用</li>
+					<li id="three" style="background: #ffca3a" class="button">Cookies以及相似技术</li>
+					<li id="four" style="background: #9c89b8" class="button">第三方收集和分享数据</li>
+					<li id="five" style="background: #2ec4b6" class="button">用户选项及权力</li>
+					<li id="six" style="background: #ff595e" class="button">数据安全</li>
+					<li id="seven" style="background: #6a4c93" class="button">数据保留</li>
+					<li id="eight" style="background: #118ab2 " class="button">国际数据存储及转移</li>
+					<li id="nine" style="background: #83c5be " class="button">特殊人群</li>
+					<li id="ten" style="background: #f0a6ca " class="button">隐私政策修改</li>
+					<li id="eleven" style="background: #9a8c98 " class="button">隐私政策联系信息</li>
+
+				</ul>
+			</div>
+		</div>
+		<!--隐私主体-->
+		<div class="data_content">
+			<div class="data_main">
+				<div class="main_left fl">
+					<div id="corlor_bar" class="left_1" >
+						<h3 style="text-align: center; color: white; font-size: 15px; font-weight:bold;">标签分布图</h3>
+					</div>
+					<div id="tsne" class="left_2" >
+						<h3 style="text-align: center; color: white; font-size: 15px; font-weight:bold;">{{ info.category | safe}}类型APP隐私政策文本聚类分布</h3>
+
+					</div>
+				</div>
+
+
+				<!--主体-->
+				<div class="main_center fl">
+					<div  id= "OverviewText" class="center_text" style="overflow-x:hidden;color: white">
+					</div>
+				</div>
+				<!--主结束-->
+				<!--视图-->
+				<div class="policyMinimap">
+				</div>
+				<!--app information-->
+				<div class="main_right fr">
+					<!--app信息-->
+					<div class="right_1" style="overflow-x:hidden">
+						<div class="inner">
+							<h3 style="text-align: center; color: white; font-size: 15px; font-weight:bold;">应用简介</h3>
+							<div id="summary" style="margin-top:20px">
+								<ul style="margin-top: 10px;color: white">
+									<li><span style="font-weight:bold;">应用 : </span> {{ info.app_name | safe}} </li>
+									<li><span style="font-weight:bold;">类型 : </span> {{ info.category | safe}} </li>
+									<li><span style="font-weight:bold;">评分 : </span> {{ info.star | safe}} </li>
+									<li><span style="font-weight:bold;">安装次数 : </span> {{ info.install_num | safe}} </li>
+									<li><span style="font-weight:bold;">提供商 : </span> {{ info.offer | safe}} </li>
+									<li><span style="font-weight:bold;">应用更新日期 : </span> {{ info.update_time | safe}}</li>
+									<li><span style="font-weight:bold;">原始隐私政策链接： </span> <a align="left" href={{ info.pp_link | safe}}, style="font-size: 15px; margin-left: -3px" >隐私政策</a></li>
+								</ul>
+								<div style="margin-top: 20px; height:500px;color: white" >{{ info.description | safe }}</div>
+							</div>
+						</div>
+<!--						<div id="chart_3" class="echart t_btn7" style="width:100%;height: 280px;"></div>-->
+
+					</div>
+					<div id="bar" class="right_2">
+						<h3 style="text-align: center; color: white; font-size: 15px; font-weight:bold;">{{ info.category | safe}}类型APP标签对比分布</h3>
+<!--						<div id="chart_4" class="echart fl t_btn4" style="width:100%;height: 280px;cursor: pointer;"></div>-->
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	<div id="loading-screen" style="display: none;" class="loading">Loading&#8230;</div>
+
+	</body>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.4.11/d3.min.js"></script>
+{#	<script src="https://www.jq22.com/jquery/jquery-1.10.2.js"></script>#}
+	<script src="static/js/d3.js"></script>
+	<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+	<script src="static/js/d3.min.js"></script>
+{#	<script src="static/js/main.js"></script>#}
+{#	<script src="static/js/cloud.js"></script>#}
+{#	<script src="static/js/btnVer.js"></script>#}
+    <script type="text/javascript" src="{{ url_for('static', filename='js/btnVer.js') }}"></script>
+{#	<script src="static/js/Xingxi.js"></script>#}
+	<script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+{#	<script src="static/js/A.js" async="async"></script>#}
+    <script src="static/js/content.js"></script>
+    <script src="static/js/bar.js"></script>
+    <script src ="static/js/keyword.js"></script>
+    <script src="static/js/galaxy.js"></script>
+    <script>
+        getMain({{ name|safe }})
+        getLabelBar({{ category_info|safe }},{{ label_setnum|safe }})
+        getKeyWord({{ key_result|safe }})
+        getGalaxy({{ csv_text|safe }})
+
+
+        $("#GDPR-btn").click(function() {
+      $('#loading-screen').fadeIn("fast").delay('30000').fadeOut("fast");
+    });
+
+    $("#PP-btn").click(function() {
+      $('#loading-screen').fadeIn("fast").delay('32000').fadeOut("fast");
+    });
+
+    </script>
+</html>

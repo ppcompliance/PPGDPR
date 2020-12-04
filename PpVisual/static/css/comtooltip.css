@@ -1,0 +1,90 @@
+.right_2{
+    /*background: red;*/
+    position: relative;
+    top: -25px;
+}
+/*.left_2{*/
+/*	background: red;*/
+/*	position: relative;*/
+/*	top: -25px;*/
+/*}*/
+* {
+    box-sizing: border-box;
+}
+
+#chart{
+    /*background: red;*/
+    background: white;
+    position: relative;
+    width: 50%;
+    height: 50%;
+    bottom: 0;
+    left: 0;
+    top:50%;
+
+
+}
+/*p{*/
+/*	color:#ffd2cc;*/
+/*}*/
+
+.textshow{
+    /*float: left;*/
+    display: block;
+}
+#River{
+    background: beige;
+    position: absolute;
+    width: 50%;
+    height: auto;
+    /*right: 50%;*/
+    /*bottom: 0;*/
+    top:0;
+    left: 50%;
+    border:5px solid #0f55c5;
+}
+#content{
+    display: none;
+}
+#modal-container{
+    display: block;
+}
+#appID{
+    position: absolute;
+    color:#ffd2cc;
+    top:35px;
+}
+.label_Pie{
+    width: -moz-fit-content;
+    width:fit-content;
+    margin:20px 80px;
+}
+text #label_bar2{
+    color:#9c89b8;
+}
+.tooltip{
+    position: absolute;
+    width: 120px;
+    height: auto;
+    font-family: simsun;
+    font-size: 14px;
+    text-align: center;
+    color: white;
+    border-width: 2px solid black;
+    background-color: black;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.tooltip:after{
+    content: '';
+    position: absolute;
+    bottom: 100%;
+    left: 20%;
+    margin-left: -8px;
+    width: 0;
+    height: 0;
+    border-bottom: 12px solid black;
+    border-right: 12px solid transparent;
+    border-left: 12px solid transparent;
+}

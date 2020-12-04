@@ -1,0 +1,115 @@
+﻿sentiment,review
+0,Computer browsers Mobile apps Opera
+0,"If you live in the European Economic Area, please read this Privacy Statement."
+0,Privacy Statement
+0,"Last updated on June 18, 2019."
+0,Introduction
+0,This is the privacy statement of Opera Unite Pte.
+3,"Ltd. (”Opera“), an Opera group company."
+0,"The statement applies to all Opera software applications, websites and services."
+0,"As a general rule, users of our software applications and services are anonymous to us, and we have no feasible ways to identify you."
+0,"However certain categories of data may be collected while using our applications and services, and some of this information may be considered personal data by the law."
+0,"When we collect personal data, we generally act as a data controller as defined in applicable law."
+0,"The exact categories of data we collect, why we collect it, and your opt-out choices depend on the application or service you use, as is more fully described below."
+0,"When we post changes to this privacy statement, we will include the date when the statement was last updated."
+0,"If we significantly change this statement, we will notify you about the upcoming change via our website or using in-app notifications."
+0,We encourage you to review this statement periodically.
+0,User-submitted data
+0,Certain pieces of information we will only process when you submit it to us.
+0,"For example, to create an Opera account we may ask for a preferred username and an email address (to authenticate the request and for password recovery)."
+0,"Alternatively you can use your Facebook, Google+, Twitter, or VK account to sign in into an Opera account and access our services with the same profile."
+1,In this case we may collect your name and email address from these social networks.
+6,You can delete or modify the submitted data using your profile page.
+2,We retain any data up to seven days after you've discontinued your Opera account in case you change your mind.
+0,"Note also that Opera allows you to sync your browser data, such as Speed Dial entries and bookmarks, between devices that have another Opera browser installed on them."
+0,Profile sync relies on your Opera account and follows the same privacy approach.
+0,"If you decide to participate in a promotional campaign, we may ask for your name, age, or postal address."
+0,"If you submit your phone number or email address on a download page, we may send you an application download link via SMS or email for your convenience."
+3,We will use this data only to provide the services you have requested and will not retain your data any longer than necessary to fulfill that specific purpose.
+0,"If you’re not comfortable with us using this data for this limited purpose, then don‘t provide it to us."
+0,Anonymous usage statistics
+0,"When you install an Opera application, a random installation ID is generated."
+0,"We may collect this identifier, as well as your device ID and hardware specification, operating system and environment configuration, and feature usage data."
+3,"We use this information for certain legitimate business purposes, namely:"
+0,To understand better how people interact with our applications and services;
+0,"To enhance, modify, personalize or otherwise improve our applications and services;"
+3,To determine the effectiveness of promotional campaigns and advertising;
+0,"To detect, debug and fix crashes in our applications and services;"
+0,To prevent security breaches and abuse.
+3,"In short, this information helps us to improve our products and services."
+0,We have no practical way to use this information to identify you personally.
+0,We may store this usage data up to three years.
+0,"If you would like to learn about your opt-out choices, please refer to our help pages."
+0,News
+0,"To provide you with more relevant news content in certain countries and languages, we collect some information about the articles you read in the applications native news feed, and your general location."
+0,This information is linked to a randomly generated News ID and may be stored on our servers up to three months.
+0,Personalized ads
+0,"Based on advertising IDs and your general location, some of our mobile applications may serve targeted ads."
+0,These ads are provided by our monetization partners.
+0,You can always adjust your personalized ad choices in the applications Settings menu or through your operating system's settings.
+0,We collect this data pursuant to our legitimate business interests.
+0,"As noted in our End User License Agreements and Terms of Service, our applications are ad-supported."
+3,Collecting this information helps us offset the costs of our business and helps provide a more personalized experience for the user.
+0,Crash reports
+9,"If an Opera application crashes, we collect a log that includes some information about your browsers version, your operating system, platform and some memory data related to the crash."
+9,We collect this data with the sole purpose of improving our products and services.
+0,Crash logs are kept for six months.
+3,"If you visit our websites, we may collect your IP address to help diagnose problems with our servers and to administer our websites."
+3,We use IP addresses solely for this purpose and keep website access logs up to six months.
+0,Feature-specific data points
+0,Browser VPN.
+0,"When you use our built-in VPN service, we do not log any information related to your browsing activity and originating network address."
+0,Browser Assistant.
+0,Your copy of Opera for computers may include a component that displays desktop notifications promoting the browsers features.
+0,"It checks if any notifications are pending on a scheduled basis and may anonymously report occurrence of certain system events (namely low battery, low hard disk space, new Wi-Fi network connected, another browser installed)."
+0,This information is not collected by us and no personal information is sent.
+0,My Flow.
+0,"If you use the My Flow function in Opera for computers or the Opera Touch browser, a random ID is generated by the Flow server and assigned to each client device."
+0,These IDs are used solely to enable pairing functionality between desktop and mobile applications and persist only while your devices are connected to My Flow.
+2,Your data is protected with end-to-end encryption and we retain it only as long as you continue to use the feature.
+6,"You can disconnect your devices from My Flow, and delete your data through the applications Settings menu."
+0,Data compression.
+0,Extreme-savings mode (in Opera Mini) renders web pages on our servers before sending a compressed version of the content to the application on your device.
+0,"High-savings mode (Opera Turbo) does not render content, but our servers look through your requests to see if any elements on the page can be compressed before sending them to your device."
+0,"If you use Opera Mini or Turbo data compression features, we log a randomly generated ID, advertising ID (on mobile devices), your IP address and URLs of your requests that are sent through our servers, but not the content."
+9,"We may also log a phone number and IMEI, if they were provided by your mobile operator."
+3,We use this data to debug and improve our services and may store in our server logs for up to 45 days.
+0,Then we anonymize and aggregate this data and may allow our business partners access to it.
+3,Malicious-site check.
+0,"We use a fraud prevention framework and check the URLs you visit against lists of known, malicious websites to protect you online."
+0,We don't store or share this data.
+0,Default search engines.
+0,"When visiting some search engine websites, the website may query if it is set as the default search engine in the applications settings, and suggest to set itself as the default search engine."
+3,CookiesLtd .
+0,We use cookies on our websites for session management and retaining your settings or preferences.
+3,We may also use third-party cookies to collect visitor statistics and measure our marketing campaigns.
+0,"If you would like to reject third-party cookies, please configure your browsers settings accordingly."
+0,Children‘s privacy
+0,There are no guarantees that children cannot enter our websites or use our applications without parental consent or notification.
+0,"Therefore, and as provided in our End User License Agreements, we require children to include their parents in the download process, and we encourage parents to read this privacy statement before allowing their children to use our applications and services."
+0,International data transfers
+0,"When we do collect personal data, it may be transferred to partners in countries other than Singapore."
+0,"Whenever we do so, we require that our partners ensure a level of protection of such data comparable to that provided for under Singapore law."
+0,Third parties
+0,"Our applications and services include third-party technology or code, some of which may use your data in different ways."
+3,"When such third-party technologies use previously collected data, they typically act as data processors for us."
+9,"When they collect data on their own, they typically act as independent data controllers."
+0,"For convenience, we have included links to their privacy policies below."
+0,Data controllers are marked with an asterisk.
+0,Opera for computers and all our mobile applications use: Google Geolocation API*.
+0,"Opera for Android: AppsFlyer, DU Ad Platform, Facebook SDK*, Firebase Cloud Messaging, Google AdMob*, Infura, Leanplum, Mintegral SDK, MyTarget, Yandex AppMetrica, Yandex Mobile Ads SDK*."
+0,"Opera Mini for Android: AppsFlyer, Facebook SDK*, Firebase Cloud Messaging, Google AdMob*, Leanplum, Yandex AppMetrica, Yandex Mobile Ads SDK*."
+0,"Opera Mini for iOS: AppsFlyer, Facebook SDK*, Google AdMob*."
+0,"Opera Touch: AppsFlyer, Firebase Cloud Messaging, Firebase Crashlytics."
+0,"Opera News: AppsFlyer, Facebook SDK*, Firebase Cloud Messaging, Google AdMob*."
+0,"Our websites use: Cxense, Facebook Pixel*, Google Analytics*, SnapChat, Yandex Metrica."
+0,Please note that this list of third-party entities applies only to the currently supported versions of our applications and services.
+0,Your rights
+6,You have the right to make a request to access or delete any of your personal data that we might possess.
+0,You can make a request via this online request form or by contacting our Data Protection Officer at the address below.
+0,You may be required to provide additional information to authenticate your request.
+0,Contacts
+0,We are very open about privacy and recognize your trust as a great value.
+0,"If you have any questions about this statement or any privacy issues in our applications or services, feel free to contact our Data Protection Officer via this online request form or by post:"
+0,Opera Unite Pte.
+3,Ltd.

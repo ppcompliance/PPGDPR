@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+{% block title %}隐私政策内容可视化{% endblock %}
+
+
+
+
+
+
+
+
+
+{% block content %}
+
+<!--搜索-->
+		<div class="header">
+			<form class="form-wrapper cf" method="POST" action="/submit" >
+				<h id="appID" >APP URL:</h>
+				<input id="AppUrl" name="AppUrl" type="text"  />
+<!--				<button type="submit">时间序列</button>-->
+				<button class="btn" name="submitbutton" id="GDPR-btn" type="submit" value="合规性分析" >合规性分析</button>
+				<button class="btn"  name="submitbutton" id="PP-btn" type="submit"  value="隐私政策内容分析" >隐私政策内容分析</button>
+			</form>
+		</div>
+
+{#    <div id="loading-screen" class="loading-screen" style="display: none;">#}
+{#  <div class="wrapper">#}
+{#    <div class="spinner">#}
+{#      <div class="content">Loading...</div>#}
+{#    </div>#}
+{#  </div>#}
+{#</div>#}
+    <div id="loading-screen" style="display: none;" class="loading">Loading&#8230;</div>
+
+    {% block script %}
+   <script type="text/javascript">
+   $("#GDPR-btn").click(function() {
+  $('#loading-screen').fadeIn("fast").delay('30000').fadeOut("fast");
+});
+
+$("#PP-btn").click(function() {
+  $('#loading-screen').fadeIn("fast").delay('32000').fadeOut("fast");
+});
+
+   </script>
+{% endblock %}
+{% endblock %}
